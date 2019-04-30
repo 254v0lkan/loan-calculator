@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 //add the javascript and css to display the calculator
 
 function my_javascripts() {
-	wp_enqueue_style('CalculatorCSS', plugin_dir_url(__FILE__).'css/style.css');
+	wp_enqueue_style('CalculatorCSS', plugin_dir_url(__FILE__).'styles/style.css');
 
 	wp_enqueue_script( 'Javascript',
 	                      'https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js',

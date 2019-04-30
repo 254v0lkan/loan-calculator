@@ -24,9 +24,9 @@ function calculateResults(e) {
 	const total = (interest + p).toFixed(2);
 	
 	if (isFinite(payment)) {
-		totalInterest.innerHTML = '$' + (interest).toFixed(2);
-		monthlyPayment.innerHTML = '$' + payment;
-		totalAmount.innerHTML = '$' + total;
+		totalInterest.innerHTML = (interest).toFixed(2);
+		monthlyPayment.innerHTML =  payment;
+		totalAmount.innerHTML = total;
 		// hide loader
 		button.classList.remove('loading');
 		// show results
